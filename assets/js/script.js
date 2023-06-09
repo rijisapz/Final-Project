@@ -15,7 +15,7 @@ $(document).ready(function () {
         // Get task details from input fields
         var title = $('#task-title').val();
         var description = $('#task-description').val();
-        var assignedTo = $('#task-assigned-to').val();
+        var assignedTo = $('input[name="assigned-to"]:checked').val(); 
         var createdDate = $('#task-created-date').val();
         var dueDate = $('#task-due-date').val();
 
