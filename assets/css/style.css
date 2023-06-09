@@ -58,3 +58,6 @@ h1 {
 .hidden {
   display: none;
 }
+.profile-pics {
+  border-radius: 46%;
+}
