@@ -1,4 +1,60 @@
-* {
-    margin: 0;
-    padding: 0;
+.container{
+  background-color: rgb(230, 227, 222);
+}
+.card-body {
+  letter-spacing: 0.035rem;
+}
+h1 {
+  margin: 1.5rem 0;
+}
+.done-task {
+    background-color: rgb(97, 157, 90);
+    color: white;
+}
+.done-label {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 4px;
+  background-color: #0b611f;
+  color: white;
+  font-weight: bold;
+  font-size: 0.9rem;
+  border-radius: 0 0 0 8px;
+}
+.card-actions {
+    display: flex;
+    justify-content: flex-end;
+}
+.task-due {
+  position: absolute;
+  bottom: 0px;
+  font-size: 0.8rem;
+}
+.task-created {
+  position: absolute;
+  bottom: 1rem;
+  font-size: 0.8rem;
+}
+.task-assigned {
+  position: absolute;
+  bottom: 2rem;
+  font-size: 0.8rem;
+}
+.mark-done-btn {
+  color: rgb(36, 211, 36);
+}
+.delete-btn {
+  color: rgb(170, 63, 63);
+}
+.task-card {
+  background-color: rgb(44, 133, 197);
+  transition: background-color 0.3s ease;
+  color: black;
+}
+.task-card.done-task {
+  background-color: rgb(84, 150, 84);
+}
+.hidden {
+  display: none;
 }
