@@ -7,6 +7,7 @@ $(document).ready(function () {
 
     $('#add-task-btn').click(function () {
         $('#task-form').removeClass('hidden');
+        $('#task-created-date').val(new Date().toISOString().split('T')[0]);
     });
     // Add task event listener
     $('#task-form').submit(function (e) {
